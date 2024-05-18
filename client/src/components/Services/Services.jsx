@@ -5,8 +5,8 @@ const Services = () => {
     return (
         <section className="services pt-10 pb-20">
             <div className="cont">
-                <h2 className="text-center font-outfit text-[60px] font-medium mb-20">
-                    Sigortada güvenin adresi!
+                <h2 className="text-center font-outfit lg:text-[60px] text-[50px] font-medium mb-20">
+                    Sigortada <span className="bg-blue-400 text-white px-2 py-1 font-semibold">güvenin</span> adresi!
                 </h2>
                 <div className="services-wrapper grid-flow-row">
                     {services.map((item) => (
